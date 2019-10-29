@@ -1,0 +1,118 @@
+{
+  "logins": [
+    {
+      "id": 1,
+      "email": "bob@bob.com",
+      "password": "password"
+    },
+    {
+      "id": 2,
+      "email": "jim@jim.com",
+      "password": "password"
+    },
+    {
+      "id": 3,
+      "email": "me@jasonbarr.dev",
+      "password": "$2b$12$sWSzdwwfPuJHoo7RKp1fJuoU/eh4kc2dHrAh6uzwlGbP53NvvH4uC"
+    }
+  ],
+  "users": [
+    {
+      "name": "Bob Bob",
+      "email": "bob@bob.com",
+      "dob": "1980-08-03",
+      "gender": "",
+      "location": "",
+      "bio": "",
+      "id": 1,
+      "login_id": 1
+    },
+    {
+      "name": "Jim Jim",
+      "email": "jim@jim.com",
+      "dob": "1980-08-03",
+      "gender": "",
+      "location": "",
+      "bio": "",
+      "id": 2,
+      "login_id": 2
+    },
+    {
+      "name": "Jason Barr",
+      "email": "me@jasonbarr.dev",
+      "dob": "1980-08-03",
+      "gender": "",
+      "location": "",
+      "profile_img": "",
+      "bio": "",
+      "id": 3,
+      "login_id": 3
+    }
+  ],
+  "swipes": [
+    {
+      "id": 1,
+      "swiper_id": 1,
+      "swiped_id": 2,
+      "requested": true,
+      "declined": false
+    },
+    {
+      "id": 2,
+      "swiper_id": 2,
+      "swiped_id": 1,
+      "requested": true,
+      "declined": false
+    }
+  ],
+  "friends": [
+    {
+      "id": 1,
+      "user_id": 1,
+      "friends": [
+        2
+      ]
+    },
+    {
+      "id": 2,
+      "user_id": 2,
+      "friends": [
+        1
+      ]
+    }
+  ],
+  "messages": [
+    {
+      "id": 1,
+      "from_id": 1,
+      "to_id": 2,
+      "message": "Hello, new friend!"
+    },
+    {
+      "id": 2,
+      "from_id": 2,
+      "to_id": 1,
+      "message": "Hello back, new friend!"
+    }
+  ],
+  "hobbies": [
+    {
+      "id": 1,
+      "user_id": 1,
+      "hobbies": [
+        "Reading",
+        "Listening to music",
+        "Fishing"
+      ]
+    },
+    {
+      "id": 2,
+      "user_id": 2,
+      "hobbies": [
+        "Drinking beer",
+        "Fishing",
+        "Driving my truck"
+      ]
+    }
+  ]
+}

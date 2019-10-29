@@ -1,0 +1,154 @@
+{
+  "logins": [
+    {
+      "id": 1,
+      "email": "bob@bob.com",
+      "password": "$2b$12$G6FF1RQyi4WIGFTVBjxX1.HuvKl6R366duXxxuRauZhXq8wkIJlXK"
+    },
+    {
+      "id": 2,
+      "email": "jim@jim.com",
+      "password": "$2b$12$EsiViR8BESrTW3lDxxGzBOG6XpVcpYolUOUcY2rzjSCxcroLaQ8py"
+    },
+    {
+      "id": 3,
+      "email": "me@jasonbarr.dev",
+      "password": "$2b$12$zR.COOf6nbSMGg1ntuFq9.V8PcbLzObuXwjngffuwMXkLQpBVqvmu"
+    },
+    {
+      "id": 4,
+      "email": "ernie@ernie.com",
+      "password": "$2b$12$3.kgG05M0mystNWgtMHF/OsDkmAqIyLYUSqd3.nRpTgTYKh2iSs.i"
+    }
+  ],
+  "users": [
+    {
+      "gender": "Male",
+      "location": "Owensboro, KY",
+      "profile_img": "https://randomuser.me/api/portraits/men/77.jpg",
+      "dob": "1979-06-26",
+      "bio": "Yeah, yeah, yeah",
+      "name": "Bob Bob",
+      "email": "bob@bob.com",
+      "hobbies": [
+        "Fishing"
+      ],
+      "friends": [
+        "jim@jim.com"
+      ],
+      "login_id": 1,
+      "id": 1
+    },
+    {
+      "name": "Jim Jim",
+      "email": "jim@jim.com",
+      "dob": "1983-09-17",
+      "gender": "Male",
+      "location": "Outer Space",
+      "profile_img": "https://randomuser.me/api/portraits/men/76.jpg",
+      "bio": "I like to do things with people.",
+      "hobbies": [
+        "Drinking beer",
+        "Fishing",
+        "Driving my truck"
+      ],
+      "friends": [
+        "bob@bob.com",
+        "me@jasonbarr.dev"
+      ],
+      "login_id": 2,
+      "id": 2
+    },
+    {
+      "name": "Jason Barr",
+      "email": "me@jasonbarr.dev",
+      "dob": "1980-08-03",
+      "gender": "Male",
+      "location": "Evansville, IN",
+      "profile_img": "https://avatars2.githubusercontent.com/u/19394818?s=460&v=4",
+      "bio": "Part-time music geek; full-time computer geek.",
+      "hobbies": [
+        "Playing guitar",
+        "JavaScripting"
+      ],
+      "friends": [
+        "jim@jim.com"
+      ],
+      "login_id": 3,
+      "id": 3
+    },
+    {
+      "name": "Ernie",
+      "email": "ernie@ernie.com",
+      "dob": "1969-11-10",
+      "gender": "Puppet",
+      "location": "Sesame Street",
+      "profile_img": "https://a1cf74336522e87f135f-2f21ace9a6cf0052456644b80fa06d4f.ssl.cf2.rackcdn.com/images/characters_opt/p-ses-ernie.jpg",
+      "bio": "Just havin' fun on Sesame Street",
+      "hobbies": [
+        "Heeeere, fishy fishy fishy!"
+      ],
+      "friends": [],
+      "login_id": 4,
+      "id": 4
+    }
+  ],
+  "swipes": [
+    {
+      "id": 1,
+      "swiper_id": 1,
+      "swiped_id": 2,
+      "requested": true,
+      "declined": false
+    },
+    {
+      "id": 2,
+      "swiper_id": 2,
+      "swiped_id": 1,
+      "requested": true,
+      "declined": false
+    },
+    {
+      "id": 3,
+      "swiper_id": 2,
+      "swiped_id": 4,
+      "requested": false,
+      "declined": true
+    },
+    {
+      "id": 4,
+      "swiper_id": 2,
+      "swiped_id": 3,
+      "requested": true,
+      "declined": false
+    },
+    {
+      "id": 5,
+      "swiper_id": 3,
+      "swiped_id": 2,
+      "requested": true,
+      "declined": false
+    },
+    {
+      "id": 6,
+      "swiper_id": 3,
+      "swiped_id": 2,
+      "requested": false,
+      "declined": true
+    }
+  ],
+  "messages": [
+    {
+      "id": 1,
+      "from_id": 1,
+      "to_id": 2,
+      "message": "Hello, new friend!"
+    },
+    {
+      "id": 2,
+      "from_id": 2,
+      "to_id": 1,
+      "message": "Hello back, new friend!"
+    }
+  ]
+}
